@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        #user-details {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        #user-details h2 {
+            color: #4CAF50;
+            margin: 0 0 10px;
+        }
+        #user-details p {
+            margin: 10px 0;
+            color: #666;
+        }
+        #user-details a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        #user-details a:hover {
+            text-decoration: underline;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<h1>User Details</h1>
+<div id="user-details">
+    <h2>имя</h2>
+    <p><strong>Email:</strong> почта</p>
+    <p><strong>Address:</strong> улица, город</p>
+    <p><strong>Phone:</strong> телефон</p>
+    <p><strong>Website:</strong> <a href="http://${user.website}" target="_blank">сайт</a></p>
+</div>
+<button onclick="goBack()">Назад</button>
+<!--<script src="user.js"></script>-->
+</body>
+</html>
