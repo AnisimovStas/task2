@@ -26,5 +26,5 @@ async function fetchUserData(){
     websiteText.innerText=user.website;
 
 }
-console.log ("privet")
+console.log ("prive")
 fetchUserData();
